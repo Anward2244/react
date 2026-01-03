@@ -1,0 +1,37 @@
+button{
+    margin: 5px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: all 0.8s ease;
+}
+#start{
+    border:1px solid green;
+    color:green;
+    background-color: white;
+}
+#stop{
+    border:1px solid red;
+    color:red;
+    background-color: white;
+}
+#reset{
+    border:1px solid black;
+    color:black;
+    background-color: white;
+}
+
+#start:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+#stop:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#reset:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
