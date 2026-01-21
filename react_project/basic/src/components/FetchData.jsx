@@ -14,7 +14,7 @@ function FetchData(){
         <div id="main_div" style={{width:'100%', display:'flex', flexWrap:'wrap', fontSize:'15px', textAlign:'center', justifyContent:'center'}}>
         {data.length>0?data.map(each=>
         <div id="sub-part" style={{backgroundColor:"#4F4789", borderRadius:"10px", padding:"5px",margin:"5px"}}>
-        <img src={each.image} style={{width:'200px'}}/>
+        <img src={each.image} style={{width:'200px', borderRadius:'10px'}}/>
         <p style={{color:'white'}}>{each.name}</p>
         </div>
         ):<SpinnerComponent/>}
