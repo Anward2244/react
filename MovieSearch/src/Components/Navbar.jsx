@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <Link to="/" className="logo"><img src="../public/logo.png" alt="" style={{width:'50px', transform:"translateY(18px)"}} />Movie Mania</Link>
+      <Link to="/" className="logo"><img src="/logo.png" alt="" style={{width:'50px', transform:"translateY(18px)"}} />Movie Mania</Link>
       <div className="nav-links">
         <Link to="/">Home</Link>
         {user ? (

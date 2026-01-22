@@ -51,7 +51,7 @@ const Home = () => {
 
   return (
     <main>
-      <header><img src="../public/logo.png" alt="" style={{width:'250px'}} /><h1 style={{marginTop:"0px"}}>Movie Mania</h1></header>
+      <header><img src="/logo.png" alt="" style={{width:'250px'}} /><h1 style={{marginTop:"0px"}}>Movie Mania</h1></header>
       <Search searchInput={searchInput} search={search} />
 
       <div className="movie-grid">
