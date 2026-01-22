@@ -28,6 +28,9 @@ function Detail({ selected, closeDetail }) {
             <p><strong>Director:</strong> {selected.Director}</p>
             <p><strong>Actors:</strong> {selected.Actors}</p>
             <p><strong>Genre:</strong> {selected.Genre}</p>
+            <p><strong>Language:</strong> {selected.Language}</p>
+            <p><strong>Awards:</strong> {selected.Awards}</p>
+            <p><strong>Box Office:</strong> {selected.BoxOffice}</p>
           </div>
         </div>
       
