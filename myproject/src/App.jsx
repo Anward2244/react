@@ -19,4 +19,19 @@
 //   )
 // }
 
-<Order_items fruits = {fruits}/>
+import { useContext } from "react"
+import { Waiter } from "./main"
+
+{/* <Order_items fruits = {fruits}/> */}
+
+
+function Customer(){
+    const food = useContext(Waiter)
+    console.log(food)
+    return(
+        <>
+        <h1>This is {food}</h1>
+        </>
+    )
+}
+export default Customer

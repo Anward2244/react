@@ -2,8 +2,8 @@
   font-family: 'Outfit', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color-scheme: dark; /* Sets scrollbar to dark mode */
-  background-color: #0f172a; /* Matches your background */
+  color-scheme: dark;
+  background-color: #0f172a;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
   padding: 0;
   min-width: 320px;
   min-height: 100vh;
-  display: block; /* This fixes the "half screen" issue */
+  display: block;
 }
 
 #root {
